@@ -1,0 +1,2 @@
+#!/usr/bin/python
+persona ["nombre","apellido","DNI","Fecha de nacimiento", ]
