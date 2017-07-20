@@ -72,17 +72,17 @@ nota_14=int(input("ingrese nota: "))
 
 nota_15=int(input("ingrese nota: "))
 
-mate_1 = {"nombre" : nom_mate_1, "aprobado" : "aprobado", "nota" : nota_1, "nombre1" : nom_mate_1, "aprobado1" : "aprobado" , "nota1" : nota_2, "nombre2" : nom_mate_1, "aprobado2" :"aprobado" , "nota2" : nota_3}
+m1 = {"nombre" : nom_mate_1, "aprobado" : "aprobado", "nota" : nota_1, "nombre1" : nom_mate_1, "aprobado1" : "aprobado" , "nota1" : nota_2, "nombre2" : nom_mate_1, "aprobado2" :"aprobado" , "nota2" : nota_3}
 
-mate_2 = {"nombre" : nom_mate_2, "aprobado" : "aprobado", "nota" : nota_4, "nombre1" : nom_mate_2, "aprobado1" : "aprobado" , "nota1" : nota_5, "nombre2" : nom_mate_2, "aprobado2" :"aprobado" ,"nota2" : nota_6}
+m2 = {"nombre" : nom_mate_2, "aprobado" : "aprobado", "nota" : nota_4, "nombre1" : nom_mate_2, "aprobado1" : "aprobado" , "nota1" : nota_5, "nombre2" : nom_mate_2, "aprobado2" :"aprobado" ,"nota2" : nota_6}
 
-mate_3 = {"nombre" : nom_mate_3, "aprobado" : "aprobado", "nota" : nota_7, "nombre1" : nom_mate_3, "aprobado1" : "aprobado" , "nota1" : nota_8, "nombre2" : nom_mate_3, "aprobado2" : "aprobado" ,"nota2" : nota_9}
+m3 = {"nombre" : nom_mate_3, "aprobado" : "aprobado", "nota" : nota_7, "nombre1" : nom_mate_3, "aprobado1" : "aprobado" , "nota1" : nota_8, "nombre2" : nom_mate_3, "aprobado2" : "aprobado" ,"nota2" : nota_9}
 
-mate_4 = {"nombre" : nom_mate_4, "aprobado" : "aprobado", "nota" : nota_10, "nombre1" : nom_mate_4, "aprobado1" : "aprobado" , "nota1" : nota_11, "nombre2" : nom_mate_4, "aprobado2" :"aprobado" ,"nota2" : nota_12}
+m4 = {"nombre" : nom_mate_4, "aprobado" : "aprobado", "nota" : nota_10, "nombre1" : nom_mate_4, "aprobado1" : "aprobado" , "nota1" : nota_11, "nombre2" : nom_mate_4, "aprobado2" :"aprobado" ,"nota2" : nota_12}
 
-mate_5 = {"nombre" : nom_mate_5, "aprobado" : "aprobado", "nota" : nota_13, "nombre1" : nom_mate_5, "aprobado1" : "aprobado" , "nota1" : nota_14, "nombre2" : nom_mate_5, "aprobado2" :"aprobado" ,"nota2" : nota_15}
+m5 = {"nombre" : nom_mate_5, "aprobado" : "aprobado", "nota" : nota_13, "nombre1" : nom_mate_5, "aprobado1" : "aprobado" , "nota1" : nota_14, "nombre2" : nom_mate_5, "aprobado2" :"aprobado" ,"nota2" : nota_15}
 
-materia_aprobada=[mate_1, mate_2, mate_3, mate_4, mate_5]
+materia_aprobada=[m1, m2, m3, m4, m5]
 
 print materia_aprobada
 
