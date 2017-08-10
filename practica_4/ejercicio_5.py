@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+
 lista={1,2,3,4}
 
 suma=0
@@ -15,4 +16,4 @@ def sumarlista(lista):
 		else:	
 			
 			return  False
-print sumarlista
+print sumarlista(lista)
