@@ -2,18 +2,16 @@
 
 leia=raw_input("ingrese palabra: ")
 
-def inversa(L):
+def inversa(leia):
+    nue = " "
 
-    nue = ""
+    if len(leia)> 1:
 
-    if len(l)==1:
-
-        return l
+        for l in leia:
+            nue+=l
+            return nue
 
     else:
-
-        nue = 1 + nue
-
-        return nue
+         return leia
 
 print inversa(leia)
