@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+#ejercicio 2
+
 p1 =raw_input ("ingrese su nombre: ")
 
 p2 =raw_input ("ingrese su apellido: ")
