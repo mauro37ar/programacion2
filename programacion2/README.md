@@ -37,3 +37,39 @@ La computadora recibe y envía la información a través de los periféricos, po
 
 6. Describa y grafique los elementos de la Arquitectura de Von Neumann.
 Es una arquitectura de computadoras basada en la descrita en 1945 por el matemático y físico John von Neumann y otros, en el primer borrador de un informe sobre el EDVAC. Este describe una arquitectura de diseño para un computador digital electrónico con partes que constan de una unidad de procesamiento que contiene una unidad aritmético lógica y registros del procesador, una unidad de control que contiene un registro de instrucciones y un contador de programa, una memoria para almacenar tanto datos como instrucciones, almacenamiento masivo externo, y mecanismos de entrada y salida. El concepto ha evolucionado para convertirse en un computador de programa almacenado en el cual no pueden darse simultáneamente una búsqueda de instrucciones y una operación de datos, ya que comparten un bus en común. Esto se conoce como el cuello de botella Von Neumann, y muchas veces limita el rendimiento del sistema
+
+Organización del cpu:
+
+1. ¿Cómo está compuesta una CPU?
+ CPU esta compuesta por la memoria principal, la unidad aritmético-lógica y la unidad o procesador de control.
+
+2. ¿Qué son los flags?Enumere y explique cada uno.
+El campo Flags en un protocolo de comunicaciones TCP utiliza 6 bits para activar o desactivar cada una de las siguientes funciones:
+
+    URG: Especifica a la máquina receptora la existencia de información urgente en el flujo de datos.
+    ACK: Se corresponde con una respuesta de correcta recepción de un paquete anterior que se envió a otra máquina.
+    PSH: Indica a la máquina receptora que debe pasar la información a la capa de aplicación (programas) lo más rápido posible.
+    Flag RST: Especifica el reinicio de la conexión entre la máquina receptora y la emisora.
+    SYN: Se utiliza para la sincronización de números de secuencia entre máquinas.
+    FIN: Indica que debe empezar el proceso de fin de conexión.
+
+3. Realice un gráfico con todos los elementos de la CPU.
+- Unidad de Control (UC): obtiene instrucciones desde la memoria y las "ejecuta" dirigiendo operaciones coordinadas con la UAL, registros y otros componentes.
+
+- Unidad aritmético-lógica (UAL o ALU en inglés): realiza operaciones aritméticas y lógicas.
+
+- Registros de procesador: proveen operandos al UAL y almacenan los resultados obtenidos en el UAL
+
+
+Los procesadores vectoriales tienen múltiples procesadores que operan en paralelo, no tiene una unidad considerada central.
+
+4. ¿Qué es y para qué sirve un registro?
+Un registro es una memoria de alta velocidad y poca capacidad, integrada en el microprocesador, que permite guardar transitoriamente y acceder a valores muy usados, generalmente en operaciones matemáticas.
+
+Los registros están en la cumbre de la jerarquía de memoria, y son la manera más rápida que tiene el sistema de almacenar datos. Los registros se miden generalmente por el número de bits que almacenan; por ejemplo, un "registro de 8 bits" o un "registro de 32 bits". Los registros generalmente se implementan en un banco de registros, pero antiguamente se usaban biestables individuales, memoria SRAM o formas aún más primitivas.
+Instrucciones:
+1. ¿Qué es una instrucción? Describa su composición y para qué sirve.
+2. Describa el ciclo de instrucciones.
+Buses:
+1. ¿Que es un bus y que función cumple? Enumere y explique los tipos que existen.
+2. ¿Que ventaja tiene un bus frente a otro si es más ancho?
